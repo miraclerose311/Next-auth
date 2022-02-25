@@ -1,25 +1,22 @@
 {
-  "name": "next-auth-example",
-  "version": "0.0.0",
+  "name": "jackson-next-auth",
+  "version": "0.1.0",
   "private": true,
   "description": "An example project for NextAuth.js",
-  "repository": "https://github.com/nextauthjs/next-auth-example.git",
+  "repository": "https://github.com/boxyhq/jackson-next-auth.git",
   "bugs": {
-    "url": "https://github.com/nextauthjs/next-auth/issues"
+    "url": "https://github.com/boxyhq/jackson-next-auth/issues"
   },
-  "homepage": "https://next-auth-example.vercel.app",
+  "homepage": "https://saml-demo.boxyhq.com",
   "main": "",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3366",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3366",
     "types": "tsc --noEmit"
   },
-  "author": "Iain Collins <me@iaincollins.com>",
+  "author": "Deepak Prabhakara <deepak@boxyhq.com>",
   "contributors": [
-    "Balázs Orbán <info@balazsorban.com>",
-    "Nico Domino <yo@ndo.dev>",
-    "Lluis Agusti <hi@llu.lu>"
   ],
   "license": "ISC",
   "dependencies": {
