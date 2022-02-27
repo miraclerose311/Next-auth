@@ -8,8 +8,8 @@ export default NextAuth({
   // https://next-auth.js.org/configuration/providers/oauth
   providers: [
     {
-      id: "saml",
-      name: "BoxyHQ",
+      id: "boxyhq",
+      name: "BoxyHQ SAML Jackson",
       type: "oauth",
       version: "2.0",
       checks: ["pkce", "state"],
