@@ -5,6 +5,7 @@ export default function PolicyPage() {
     <Layout>
       <p>
         This is an example site to demonstrate how to use{" "}
+        <a href="https://github.com/boxyhq/jackson">SAML Jackson</a> with{" "}
         <a href="https://next-auth.js.org">NextAuth.js</a> for authentication.
       </p>
       <h2>Terms of Service</h2>
