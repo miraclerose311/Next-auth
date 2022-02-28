@@ -27,6 +27,7 @@ export default function Header() {
               </span>
               <a
                 className={styles.buttonPrimary}
+                data-test-id="signInButton"
                 onClick={(e) => {
                   e.preventDefault()
                   signIn("boxyhq")
