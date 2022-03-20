@@ -27,7 +27,7 @@ export default NextAuth({
       // You can pass any HTML attribute to the <input> tag through the object.
       credentials: {
         code: {
-          label: "Code",
+          label: "Code: Go to https://mocksaml.com/saml/login to initiate SAML IdP login",
           type: "text",
           placeholder: "Enter code",
         },
