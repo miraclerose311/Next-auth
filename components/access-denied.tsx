@@ -8,7 +8,7 @@ export default function AccessDenied() {
         <a
           onClick={(e) => {
             e.preventDefault()
-            signIn("boxyhq")
+            signIn("boxyhq-saml")
           }}
         >
           You must be signed in to view this page. Click on "Sign In" above to begin the SAML login flow using SAML Jackson and NextAuth.js.

@@ -30,7 +30,7 @@ export default function Header() {
                 data-test-id="signInButton"
                 onClick={(e) => {
                   e.preventDefault()
-                  signIn("boxyhq")
+                  signIn("boxyhq-saml")
                 }}
               >
                 Sign in
